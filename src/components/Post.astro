@@ -1,0 +1,20 @@
+---
+import PostCard from "../components/PostCard.jsx";
+import { fetchPostData } from "../lib/firebase.js";
+
+const posts = await fetchPostData();
+---
+
+<body class="bg-gray-100">
+  <div class="container mx-auto py-6">
+    <h1 class="text-5xl font-extrabold leading-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+      Nuestros cursos:
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {posts.map((post) => (
+        <PostCard client:load {...post} key={post.id} />
+      ))}
+    </div>
+  </div>
+</body>

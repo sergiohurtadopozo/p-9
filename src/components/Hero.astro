@@ -1,0 +1,30 @@
+--- 
+const heroTitle = "Domina el Fútbol: Desde la Técnica hasta la Estrategia";
+const heroSubtitle = "Descubre cómo mejorar tus habilidades en el campo con tácticas avanzadas y entrenamientos efectivos.";
+import BuscadorDeModulos from "../components/BuscadorDeModulos.jsx";
+--- 
+
+<section class="relative bg-cover bg-center h-[60vh] sm:h-[70vh] mt-5" style="background-image: url('https://images.unsplash.com/photo-1638028584757-18da9c5969ac?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+  <!-- Overlay de fondo -->
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+
+  <div class="relative z-10 flex items-center justify-center text-center text-white px-6">
+    <div class="max-w-2xl">
+      <!-- Título del Hero -->
+      <h1 class="text-4xl sm:text-5xl font-extrabold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600 mt-8 transition-transform transform hover:scale-105">
+        {heroTitle}
+      </h1>
+
+      <!-- Subtítulo del Hero -->
+      <p class="text-base sm:text-lg mb-4 text-gray-300">
+        {heroSubtitle}
+      </p>
+
+      <!-- Buscador de módulos con transición -->
+      <BuscadorDeModulos client:load />
+
+      
+      
+    </div>
+  </div>
+</section>

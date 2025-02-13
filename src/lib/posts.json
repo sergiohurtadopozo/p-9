@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "title": "Fundamentos Técnicos del Fútbol",
+      "description": "Aprende los principios básicos que te permitirán dominar el balón, mejorar tu control y técnica. Este módulo cubre desde los primeros toques hasta la ejecución de habilidades esenciales para todo jugador.",
+      "image": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?cs=srgb&dl=pexels-markusspiske-114296.jpg&fm=jpg",
+      "slug": "post-0",
+      "category": "Técnica"
+    },
+    {
+      "id": 1,
+      "title": "Estrategias y Posicionamiento en el Campo",
+      "description": "Conoce las tácticas y posicionamiento que optimizan tu rendimiento y el de tu equipo. Este módulo incluye formaciones, distribuciones en el campo y cómo adaptarse a situaciones cambiantes durante el juego.",
+      "image": "https://media.licdn.com/dms/image/v2/D4D12AQEFQ9r-4edtjA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1734534751629?e=2147483647&v=beta&t=7BiqYNkgrpBoySVUyqzLy8RDi0SHXqo8jAoVbdDAfTo",
+      "slug": "post-1",
+      "category": "Estrategia"
+    },
+    {
+      "id": 2,
+      "title": "Mejora Física y Mental",
+      "description": "Fortalece tu cuerpo y mente para rendir al máximo en cada partido. En este módulo aprenderás técnicas para mejorar tu resistencia, velocidad, y concentración, esenciales para jugadores de alto nivel.",
+      "image": "https://media.telenoche.com.uy/p/2601654021ac3d0a2e96043c3c95432d/adjuntos/329/imagenes/000/115/0000115122/790x0/smart/667943859_223854202_1706x960webp.png",
+      "slug": "post-2",
+      "category": "Condición Física"
+    },
+    {
+      "id": 3,
+      "title": "Estrategias Avanzadas",
+      "description": "Domina tácticas complejas y estrategias avanzadas que te ayudarán a destacarte en tu equipo. Este módulo te llevará a un nivel profesional con enfoques profundos sobre el juego ofensivo y defensivo.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBfq636PKfVx5E7fsQS1Ylqo12rQwFigP7yz0Nu546zs7Nduoy8mu49obB2O1PQ-4BrzLkfBUztoSJP8bvE1ldZ-Z7FLt4lweCzOn5PzBQW6OQFH24Ffh_PVz5tHai2nRXMdjeb2fMl4s/s1600/PEP+PIZARRA.jpeg",
+      "slug": "post-3",
+      "category": "Estrategia"
+    },
+    {
+      "id": 4,
+      "title": "Proyecto Final: Diseña tu Plan Táctico",
+      "description": "Crea tu propio plan táctico basado en todo lo aprendido en el curso. En este módulo final, diseñarás estrategias personalizadas para aplicar en partidos reales, demostrando todo lo aprendido durante el curso.",
+      "image": "https://www.acadef.es/wp-content/uploads/2020/03/beneficios-del-deporte.jpg",
+      "slug": "post-4",
+      "category": "Estrategia"
+    },
+    {
+      "id": 5,
+      "title": "Nutrición y Rendimiento Deportivo",
+      "description": "Descubre cómo una buena nutrición puede mejorar tu rendimiento físico. Aprende qué alimentos priorizar y cómo planificar tus comidas para maximizar tu energía y recuperación.",
+      "image": "https://universidadeuropea.com/resources/media/images/alimentacion_y_rendimiento_deportivo_og.original.jpg",
+      "slug": "post-5",
+      "category": "Nutrición"
+    },
+    {
+      "id": 6,
+      "title": "Preparación para Torneos",
+      "description": "Desarrolla una estrategia sólida para competir en torneos. Aprende a analizar a tus oponentes, planificar tus juegos y mantener una mentalidad ganadora durante todo el evento.",
+      "image": "https://d3rqy6w6tyyf68.cloudfront.net/AcuCustom/Sitename/DAM/131/scw-113-tournament-tips-feature.jpg",
+      "slug": "post-6",
+      "category": "Torneo"
+    },
+    {
+      "id": 7,
+      "title": "Comunicación en el Equipo",
+      "description": "Entiende la importancia de la comunicación efectiva dentro del equipo. Este módulo enseña cómo dar indicaciones claras, motivar a tus compañeros y fortalecer la cohesión del equipo.",
+      "image": "https://media.licdn.com/dms/image/v2/D4D12AQHmKOnaw9EdFQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1709732538384?e=2147483647&v=beta&t=m-tcNYcj9QyklxqyrH499_DKTJ8eK0C_QI5ammsgOfg",
+      "slug": "post-7",
+      "category": "Comunicaciones"
+    },
+    {
+      "id": 8,
+      "title": "Entrenamientos Individuales",
+      "description": "Optimiza tu rendimiento con entrenamientos específicos para mejorar tus habilidades técnicas y físicas. Diseña una rutina personalizada para alcanzar tus objetivos.",
+      "image": "https://s2.ppllstatics.com/eldiariomontanes/www/multimedia/202005/04/media/cortadas/55054696-kdHI--1248x756@Diario%20Montanes.jpg",
+      "slug": "post-8",
+      "category": "Entrenamiento"
+    },
+    {
+      "id": 9,
+      "title": "Revisión de Reglas del Fútbol",
+      "description": "Familiarízate con las reglas más importantes del fútbol y las últimas actualizaciones. Este módulo es ideal para jugadores y árbitros en formación.",
+      "image": "https://media.a24.com/p/64b115537de32b96dcb9b03ecef7c074/adjuntos/296/imagenes/008/189/0008189748/reglas-del-futbol.jpeg",
+      "slug": "post-9",
+      "category": "Reglas"
+    },
+    {
+      "id": 10,
+      "title": "Control de Presión en el Juego",
+      "description": "Aprende a manejar la presión en situaciones de alta intensidad. Este módulo se enfoca en la resiliencia y las técnicas para mantener la calma y el enfoque bajo estrés.",
+      "image": "https://www.fifatrainingcentre.com/media/images/game/TheGame_highpress_07_imago0035828170h.variant1920x1080.jpg",
+      "slug": "post-10",
+      "category": "Psicología"
+    },
+    {
+      "id": 11,
+      "title": "Analítica y Estadísticas en el Fútbol",
+      "description": "Explora cómo los datos y las estadísticas pueden ayudarte a mejorar como jugador y entrenador. Aprende a interpretar datos clave para diseñar mejores estrategias.",
+      "image": "https://d30gl8nkrjm6kp.cloudfront.net/articulos/articulos-325826.jpg",
+      "slug": "post-11",
+      "category": "Análisis"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+const { title, description, image,  } = Astro.props;
+import BotonComprar from '../components/Boton.jsx';
+---
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso disponible</title>
+  </head>
+  <body class="bg-cover bg-center h-screen" style="background-image: url('https://static.vecteezy.com/system/resources/previews/031/690/297/large_2x/football-stadium-inside-at-night-with-lights-post-production-free-photo.jpg');">
+    <article class="max-w-4xl mx-auto py-16 px-6 text-center bg-gradient-to-b from-green-400 via-green-300 to-green-200 rounded-xl shadow-xl">
+      <header>
+        <h1 class="text-5xl font-extrabold text-gray-900 leading-tight mb-4">{title}</h1>
+        <img src={image} alt={title} class="w-full h-80 object-cover rounded-lg shadow-2xl mb-6" />
+        <p class="mt-4 text-xl text-gray-700">{description}</p>
+      </header>
+    
+    
+      <div class="mt-12 flex justify-center items-center">
+        <BotonComprar client:load />
+      </div>
+    
+      <footer class="mt-16 text-center text-gray-600">
+        <p class="text-sm">¡Inscríbete hoy y empieza a mejorar tu juego!</p>
+      </footer>
+    </article>
+    
+   
+  </body>
+</html>
